@@ -31,6 +31,30 @@ public abstract class Transformer {
         this.typeBehavior = typeBehavior;
     }
 
+    public void setTemperamentBehavior(TemperamentBehavior temperamentBehavior) {
+        this.temperamentBehavior = temperamentBehavior;
+    }
+
+    public void setFightBehavior(FightBehavior fightBehavior) {
+        this.fightBehavior = fightBehavior;
+    }
+
+    public void setSpeakBehavior(SpeakBehavior speakBehavior) {
+        this.speakBehavior = speakBehavior;
+    }
+
+    public void setMoveBehavior(MoveBehavior moveBehavior) {
+        this.moveBehavior = moveBehavior;
+    }
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setTypeBehavior(TypeBehavior typeBehavior) {
+        this.typeBehavior = typeBehavior;
+    }
+
     public void toFight() {
         this.fightBehavior.toFight();
     }
